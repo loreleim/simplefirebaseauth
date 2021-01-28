@@ -1,4 +1,4 @@
-function App() {
+function Login() {
   return (
     <div className="App">
       <h1>Login</h1>
@@ -6,4 +6,4 @@ function App() {
   );
 }
 
-export default App;
+export default Login;
