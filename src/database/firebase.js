@@ -15,11 +15,10 @@ const firebaseConfig = {
 firebase.initializeApp(firebaseConfig);
 
 //auth tokens
-const provider = new firebase.auth.GoogleAuthProvider();
-const auth = firebase.auth();
+export const provider = new firebase.auth.GoogleAuthProvider();
+export const auth = firebase.auth();
 
 
 const db = firebase.firestore();
 
 export default db;
-export { provider, auth };
