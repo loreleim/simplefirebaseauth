@@ -1,3 +1,12 @@
+.loginButton {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+}
+
 .loginButton button {
-  color: red;
+  flex: 1;
+  height: 5rem;
+  border-radius: 5rem;
 }
