@@ -1,7 +1,9 @@
+import style from "./index.module.scss";
+
 function Login() {
   return (
-    <div className="App">
-      <h1>Login</h1>
+    <div className={style.loginButton}>
+      <button>Login</button>
     </div>
   );
 }
